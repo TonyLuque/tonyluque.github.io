@@ -1,164 +1,369 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <title>Cv_Anthony</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <div class="content">
-        <aside class="content_aside">
-            <figure class="content_aside-photo">
-                <img src="./items/Anthony.jpeg" alt="tony">
-            </figure>
-            <div class="content_aside-info">
-                <p class="content_aside-name">
-                    ANTHONY
-                    </p>
-                    <p class="content_aside-lastname">
+    <div class="content__all">
+        <!--Presentación-->
+        <section class="presentation__content">
+            <div class="presentation">
+                <picture class="presentation__img">
+                    <img src="./items/Anthony.jpeg" alt="tony">
+                </picture>
+                <div class="presentation__info">
+                    <h1>
+                        ANTHONY
+                    </h1>
+                    <p class="presentation__info-lastname">
                         LUQUE
                     </p>
-                <h4 class="content_aside-profesion">BACKEND DEVELOPER</h4>
-                <div class="content_aside-description">
-                    <p>Desarrollador de software,
-                        apasionado por la tecnología y
-                        los lenguajes de programación.
-                    </p>
+                    <h2>
+                        DESARROLLADOR FULL-STACK
+                    </h2>
                 </div>
             </div>
-        </aside>
-
-        <div class="content_main">
-            <!-- cabecera
-            <div class="header">
-                <figure class="header_logo">
-                    <img src="" alt="Logo_tony">
-                </figure>
-            </div>  -->
-            <!-- Educación -->
-            <section class="content_section">
-                <div class="content_section-title">
-                    <div class="content_section-title--square"></div>
-                    <h2>EDUCACIÓN</h2>
+            <div class="presentation__description">
+                <p>
+                    Estudiante de <b> Platzi Master</b>, programa intensivo, que solo se puede entrar por invitación <b> (1% de los mejores estudiantes de Platzi)</b>, en capacitación
+                    y actualización constante.
+                    <br> 
+                    <br>Desarrollador con enfasis en Django, NodeJs, Python, Javascript, con
+                    conocimientos en bases de datos MondoDB y MySQL.
+                </p>
+            </div>
+        </section>
+        <!--Sección principal-->
+        <main>
+            <!--Experiencia-->
+            <section class="main__experience">
+                <div class="title__all">
+                    <div class="title__all--square"></div>
+                    <h3>
+                        EXPERIENCIA
+                    </h3>
+                </div>
+                <!--descripción de los proyectos-->
+                <article class="experience__proyects">
+                    <div class="experience__proyects--card">
+                        <div class="proyects__description">
+                            <h4>
+                                <span class="proyects__description--title"></span>
+                                BACKEND DEVELOPER / DevOps
+                            </h4>
+                            <h5>
+                                Chart-covid
+                            </h5>
+                            <p>
+                                Aplicación que muestra el número de casos (negativos, positivos y recuperados) del COVID-19,
+                                proyecto desarrollado en etapa intensiva de Platzi
+                                Master.
+                            </p>
+                            <div class="project__description-list">
+                                <ol>
+                                    <li>
+                                        Diseño de la arquitectura de Backend
+                                    </li>
+                                    <li>
+                                        Apoyo en el desarrollo del Backend en Django
+                                    </li>
+                                    <li>
+                                        Despliegue de la app en Heroku
+                                    </li>
+                                    <li>
+                                        Encargado de la integración continua
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="experience__proyects--card">
+                        <div class="proyects__description">
+                            <h4>
+                                <span class="proyects__description--title"></span>
+                                BACKEND DEVELOPER / DevOps
+                            </h4>
+                            <h5>
+                                Quarto
+                            </h5>
+                            <p>
+                                Aplicación que facilita la búsqueda de compañero de cuarto, por sectores y ciudades. El usuario puede ser arrendador o arrendatario, proyecto desarrollado para terminar la etapa intensiva de Platzi Master.
+                            </p>
+                            <div class="project__description-list">
+                                <ol>
+                                    <li>
+                                        Diseño de la arquitectura de Backend
+                                    </li>
+                                    <li>
+                                        Apoyo en el desarrollo del Backend en Django
+                                    </li>
+                                    <li>
+                                        Despliegue de la app en Heroku
+                                    </li>
+                                    <li>
+                                        Encargado de la integración continua
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <!--Habilidades-->
+            <section class="main__abilities">
+                <div class="title__all">
+                    <div class="title__all--square"></div>
+                    <h3>
+                        HABILIDADES
+                    </h3>
                 </div>
 
-                <div class="content_section-cards">
-                    <div class="content_section-cards--text">
-                        <h6>2020 - Actualmente</h6>
-                        <p>Backend Developer y Data Science</p>
-                        <h5>Platzi Master</h5>
+                <section class="container">
+                    <div class="abilities">
+                        <h4 class="title__color">
+                            <span class="proyects__description--title"></span>
+                            BACKEND DEVELOPER
+                        </h4>
+                        <div class="abilities__texts">
+                            <div class="texts__right">
+                                <p>
+                                    Python
+                                </p>
+                                <p>
+                                    JavaScript
+                                </p>
+                                <p>
+                                    MongoDB
+                                </p>
+                                <p>
+                                    PostgreSQL
+                                </p>
+                            </div>
+    
+                            <div class="texts__left">
+                                <p>
+                                    Django
+                                </p>
+                                <p>
+                                    Node JS
+                                </p>
+                                <p>
+                                    MySQL
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="abilities">
+                        <h4 class="title__color">
+                            <span class="proyects__description--title"></span>
+                            FRONTEND
+                        </h4>
+                        <div class="abilities__texts">
+                            <div class="texts__right">
+                                <p>
+                                    HTML5
+                                </p>
+                                <p>
+                                    JavaScript
+                                </p>
+                            </div>
+    
+                            <div class="texts__left">
+                                <p>
+                                    CSS3
+                                </p>
+                                <p>
+                                    UX/UI
+                                </p>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="content_section-cards--text">
-                        <h6>2018 - Actualmente</h6>
-                        <p>Software Developer</p>
-                        <h5>Platzi</h5>
+                    <div class="abilities">
+                        <h4 class="title__color">
+                            <span class="proyects__description--title"></span>
+                            ADICIONALES
+                        </h4>
+                        <div class="abilities__texts">
+                            <div class="texts__right">
+                                <p>
+                                    Git
+                                </p>
+                                <p>
+                                    API REST
+                                </p>
+                            </div>
+    
+                            <div class="texts__left">
+                                <p>
+                                    Github
+                                </p>
+                                <p>
+                                    Postman
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <!--Educación-->
+            <section class="main__education">
+                <div class="title__all">
+                    <div class="title__all--square"></div>
+                    <h3>
+                        EDUCACIÓN
+                    </h3>
+                </div>
+
+                <div class="container">
+
+                    <div class="education__description">
+                        <p class="description__date">
+                            <span class="proyects__description--title"></span>
+                            2020 - Actualmente
+                        </p>
+                        <h4>
+                            Desarrollador Backend and Data Science
+                        </h4>
+                        <h6>
+                            Platzi Master
+                        </h6>
                     </div>
 
-                    <div class="content_section-cards--text">
-                        <h6>2013 - 2016 (Materías Finalizadas)</h6>
-                        <p>Técnologo en Producción
-                            de Multimedia</p>
-                        <h5>Servicio Nacional de Aprendizaje SENA</h5>
+                    <div class="education__description">
+                        <p class="description__date">
+                            <span class="proyects__description--title"></span>
+                            2018 - Actualmente
+                        </p>
+                        <h4>
+                            Carreras en Bases de datos, desarrollador backend con python y Django, desarrollo Backend con Javascript y arquitectura Frontend.
+                        </h4>
+                        <h6>
+                            Platzi
+                        </h6>
                     </div>
 
-                    <div class="content_section-cards--text">
-                        <h6>2012 - 2014</h6>
-                        <p>Técnico Profesional en Diseño Gráfico</p>
-                        <h5>Corporación Instituto Superior de educación Social ISES</h5>
+                    <div class="education__description">
+                        <p class="description__date">
+                            <span class="proyects__description--title"></span>
+                            2013 - 2016 (Materias Finalizadas)
+                        </p>
+                        <h4>
+                            Técnologo en Producción de Multimedia
+                        </h4>
+                        <h6>
+                            Servicio Nacional de Aprendizaje SENA
+                        </h6>
                     </div>
 
-                    <div class="content_section-cards--text">
-                        <h6>2012 - 2014</h6>
-                        <p>Técnico Profesional en Sistemas e Informática</p>
-                        <h5>Corporación Instituto Superior de educación Social ISES</h5>
+                    <div class="education__description">
+                        <p class="description__date">
+                            <span class="proyects__description--title"></span>
+                            2020 - Actualmente
+                        </p>
+                        <h4>
+                            Desarrollador Backend and Data Science
+                        </h4>
+                        <h6>
+                            Platzi Master
+                        </h6>
                     </div>
 
+                    <div class="education__description">
+                        <p class="description__date">
+                            <span class="proyects__description--title"></span>
+                            2012 - 2014
+                        </p>
+                        <h4>
+                            Técnico Profesional en Diseño Gráfico
+                        </h4>
+                        <h6>
+                            Corporación Instituto Superior de Educación Social (ISES)
+                        </h6>
+                    </div>
+
+                    <div class="education__description">
+                        <p class="description__date">
+                            <span class="proyects__description--title"></span>
+                            2012 - 2014
+                        </p>
+                        <h4>
+                            Técnico Profesional en Sistemas e Informática
+                        </h4>
+                        <h6>
+                            Corporación Instituto Superior de Educación Social (ISES)
+                        </h6>
+                    </div>
                 </div>
             </section>
-            <!-- skills -->
-            <section class="content_skills">
-                <div class="content_section-title">
-                    <div class="content_section-title--square"></div>
-                    <h2>SKILLS</h2>
+            <!--Fortalezas-->
+            <section class="main__strengths"> 
+                <div class="title__all">
+                    <div class="title__all--square"></div>
+                    <h3>
+                        FORTALEZAS
+                    </h3>
                 </div>
+                <!--Iconos de fortalezas-->
+                <section class="strengths__icons">
+                    <p class="icons">
+                        <span class="icons__all icon__organized"></span>
+                        Organizado
+                    </p>
 
-                <div class="content_skills-container">
-                    <div class="content_skills-level">
-                        <p class="content_skills-level--padding">Python</p>
-                        <div class="content_skills-level--orange">
-                            <div class="content_skills-level--violet0"></div>
-                        </div>
-                    </div>
-    
-                    <div class="content_skills-level">
-                        <p class="content_skills-level--padding">Django</p>
-                        <div class="content_skills-level--orange">
-                            <div class="content_skills-level--violet1"></div>
-                        </div>
-                    </div>
-    
-                    <div class="content_skills-level">
-                        <p class="content_skills-level--padding2">Java Script</p>
-                        <div class="content_skills-level--orange">
-                            <div class="content_skills-level--violet"></div>
-                        </div>
-                    </div>
-    
-                    <div class="content_skills-level">
-                        <p class="content_skills-level--padding2">Pandas</p>
-                        <div class="content_skills-level--orange">
-                            <div class="content_skills-level--violet1"></div>
-                        </div>
-                    </div>
-    
-                    <div class="content_skills-level">
-                        <p class="content_skills-level--padding2">MongoDB</p>
-                        <div class="content_skills-level--orange">
-                            <div class="content_skills-level--violet"></div>
-                        </div>
-                    </div>
-    
-                    <div class="content_skills-level">
-                        <p class="content_skills-level--padding2">MySQL</p>
-                        <div class="content_skills-level--orange">
-                            <div class="content_skills-level--violet"></div>
-                        </div>
-                    </div>
-    
-                </div>
+                    <p class="icons">
+                        <span class="icons__all icon__analytical"></span>
+                        Analítico
+                    </p>
+
+                    <p class="icons">
+                        <span class="icons__all icon__creative"></span>
+                        Creativo
+                    </p>
+
+                    <p class="icons">
+                        <span class="icons__all icon__responsable"></span>
+                        Responsable
+                    </p>
+
+                    <p class="icons">
+                        <span class="icons__all icon__comunication"></span>
+                        Comunicación corporativa
+                    </p>
+
+                    <p class="icons">
+                        <span class="icons__all icon__team"></span>
+                        Trabajo en equipo
+                    </p>
+                </section>
             </section>
-            <!-- footer -->
-            <footer class="footer">
-                <div class="footer_info-icon">
+            <!--Footer-->
+            <footer>
+                <section class="footer__contact">
                     <a href="mailto:kasuru@hotmail.com">
-                        <figure>
-                            <img src="./items/mail.svg" alt="e-mail" class="footer_icon">
-                        </figure>
-                        <p>kasuru@hotmail.com</p>
+                        <span class="contact__icon contact__icon--mail"></span>
                     </a>
-                </div>
-                
-                <p class="footer_copyright">
-                    Creado por: <a class="footer_copyright-text" href="https://www.behance.net/julita_056c023">July Muñoz</a>
+                    <a href="https://api.whatsapp.com/send?phone=+573232324036">
+                        <span class="contact__icon contact__icon--whatsapp"></span>
+                    </a>
+                </section>
+
+                <p>
+                    Hoja de vida 2020
                 </p>
 
-                <div class="footer_links">
-                    <a href="https://www.linkedin.com/in/anthony-luque-55a6411b3/">
-                        <figure>
-                            <img src="./items/linkedin.svg" alt="LinkedIn" class="footer_icon">
-                        </figure>
-                    </a>
-                    <a href="https://github.com/TonyLuque">
-                        <figure>
-                            <img src="./items/github.svg" alt="Github" class="footer_icon">
-                        </figure>
-                    </a>
-                </div>
+                <section class="footer__social-media">
+                    <a href="https://www.linkedin.com/in/anthonyluque/" class="contact__icon contact__icon--linkedin"></a>
+                    <a href="https://platzi.com/@tonyl" class="contact__icon contact__icon--platzi"></a>
+                    <a href="https://github.com/TonyLuque" class="contact__icon contact__icon--github"></a>
+                </section>
             </footer>
-        </div>
+        </main>
     </div>
 </body>
-</html>
